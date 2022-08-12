@@ -1,6 +1,6 @@
 name: task_util
-description: A starting point for Dart libraries or applications.
-version: 0.0.1
+description: Multitasking library
+version: 0.0.2
 homepage: https://github.com/wuchuheng/task_util_dart
 
 environment:
