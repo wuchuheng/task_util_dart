@@ -1,6 +1,6 @@
-import 'package:task_util/src/multiplex_task_pool.dart';
-import 'package:task_util/src/single_task_pool.dart';
 import 'package:test/test.dart';
+import 'package:wuchuheng_task_util/src/multiplex_task_pool.dart';
+import 'package:wuchuheng_task_util/src/single_task_pool.dart';
 
 void main() {
   group('Single task group of tests', () {
@@ -27,8 +27,7 @@ void main() {
         expect(item == expectResult[index], isTrue);
         index++;
       }
-      final duration = DateTime.now().microsecondsSinceEpoch -
-          startTime.microsecondsSinceEpoch;
+      final duration = DateTime.now().microsecondsSinceEpoch - startTime.microsecondsSinceEpoch;
       expect(duration, greaterThanOrEqualTo(2000000));
     });
   });

@@ -1,6 +1,6 @@
-name: task_util
+name: wuchuheng_task_util
 description: Multitasking library
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/wuchuheng/task_util_dart
 
 environment:

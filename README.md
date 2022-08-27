@@ -12,7 +12,7 @@ start using the package.
 ## Usage
 
 ```dart
-import 'package:task_util/task_util.dart';
+import 'package:task_util/wuchuheng_task_util.dart';
 
 void main() async {
   /// Individual task management.
